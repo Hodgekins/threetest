@@ -16,7 +16,7 @@ const loader = new GLTFLoader();
 let house;
 let pivot; // Reference to your pivot object
 
-loader.load('victorian_house.glb', function (gltf) {
+loader.load('/victorian_house.glb', function (gltf) {
   pivot = new THREE.Object3D();
   const house = gltf.scene;
 
